@@ -1,37 +1,31 @@
 # DBA SRE Knowledge Base
 
-Repo này dùng để public các tài liệu, ghi chú, báo cáo và hình ảnh liên quan đến công việc DBA/SRE.
+This repository is a curated knowledge base for database administration, reliability engineering, and operational problem solving.
 
-Mục tiêu là gom lại các nội dung có thể chia sẻ công khai, giúp việc tra cứu, tham khảo và cập nhật tài liệu được rõ ràng hơn.
+It collects practical field notes, runbooks, reports, diagrams, and technical references that can help engineers understand, operate, troubleshoot, and improve database systems.
 
-## Cấu trúc repo
+All content in this repository is written in English to keep the documentation consistent and accessible.
+
+## Repository Structure
 
 ```text
 .
-├── README.md
-├── images/
-├── docs/
-└── reports/
+|-- README.md
+|-- images/
+|-- docs/
+`-- reports/
 ```
 
-## Thư mục
+## Directories
 
-- `images/`: Lưu hình ảnh minh họa, sơ đồ kiến trúc, screenshot hoặc diagram dùng trong tài liệu.
-- `docs/`: Lưu tài liệu dạng markdown hoặc text, ví dụ runbook, guideline, checklist, ghi chú kỹ thuật.
-- `reports/`: Lưu các báo cáo, bản tổng hợp hoặc tài liệu xuất bản dạng PDF.
+- `images/`: Stores diagrams, screenshots, architecture drawings, and other images used by the documentation.
+- `docs/`: Stores Markdown or text-based documentation, such as runbooks, guidelines, checklists, troubleshooting notes, and technical references.
+- `reports/`: Stores published reports, summaries, exported documents, and PDF files.
 
-## Nội dung hiện có
+## Current Content
 
-- `reports/oracle8i-legacy-db-public-handled-summary.pdf`: Báo cáo tổng hợp public về xử lý hệ thống Oracle 8i legacy database.
+- `reports/oracle8i-legacy-db-public-handled-summary.pdf`: Public summary report for handling a legacy Oracle 8i database system.
 
-## Quy ước cập nhật
+## Notes
 
-- Đặt tên file rõ nghĩa, ưu tiên chữ thường và dấu gạch ngang, ví dụ `oracle-backup-checklist.md`.
-- Với tài liệu markdown, đặt trong `docs/`.
-- Với báo cáo đã xuất bản hoặc bản PDF, đặt trong `reports/`.
-- Với hình ảnh dùng trong tài liệu, đặt trong `images/` và tham chiếu bằng đường dẫn tương đối.
-- Không đưa thông tin nhạy cảm lên repo public, bao gồm mật khẩu, IP nội bộ, thông tin khách hàng, dữ liệu cá nhân hoặc log chưa được làm sạch.
-
-## Ghi chú
-
-Các tài liệu trong repo phản ánh kinh nghiệm thực tế và ghi chú kỹ thuật cá nhân. Khi áp dụng vào môi trường production, cần kiểm tra lại theo phiên bản hệ thống, chính sách vận hành và yêu cầu bảo mật cụ thể.
+The materials in this repository are based on practical experience and personal technical notes. Before applying any procedure to a production environment, review it against the target system version, operational policies, and security requirements.
